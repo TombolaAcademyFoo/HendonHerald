@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title The Hendon Herald</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <link href="images\favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="@Url.Content("~/Content/HendonHeraldMaster.css")" rel="stylesheet" type="text/css" />
+
+    <asp:ContentPlaceHolder ID="Stylesheets" runat="server">
+        <link rel="stylesheet" href="/css/HendonHeraldMaster.css" type="text/css" />
+    </asp:ContentPlaceHolder>
+
+
+
+</head>
+<body>
+
+    @Html.Partial("~/views/shared/Header/HendonHeader.cshtml")
+
+
+    @RenderBody()
+
+    <footer>
+    @Html.Partial("~/views/shared/Footer/HendonEditorFooter.cshtml")
+    </footer>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
