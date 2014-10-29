@@ -176,6 +176,36 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="images\Index Page\A Level.jpg" />
+    <Content Include="images\Index Page\AmysWinehouse.jpg" />
+    <Content Include="images\Index Page\Confusing Building.jpg" />
+    <Content Include="images\Index Page\CrookedBlandfordStreet.jpg" />
+    <Content Include="images\Index Page\favicon.ico" />
+    <Content Include="images\Index Page\Header.jpg" />
+    <Content Include="images\Index Page\heraldlogo.jpg" />
+    <Content Include="images\Index Page\heraldlogo.png" />
+    <Content Include="images\Index Page\Our Editor.jpg" />
+    <Content Include="images\Index Page\Spectral Figure Discovered in Mowbray park.jpg" />
+    <Content Include="images\Index Page\Wong Hendon Found.JPG" />
+    <Content Include="images\Local Page\Concert.jpg" />
+    <Content Include="images\Local Page\Firefighters.jpg" />
+    <Content Include="images\Local Page\WearmouthPractise.jpg" />
+    <Content Include="images\News Page\Bridge.jpg" />
+    <Content Include="images\News Page\Court.jpg" />
+    <Content Include="images\News Page\OutdoorGym.jpg" />
+    <Content Include="images\News Page\sunderlandcouncil.jpg" />
+    <Content Include="images\Stuff Page\Alexandra.jpg" />
+    <Content Include="images\Stuff Page\BigReunion.jpg" />
+    <Content Include="images\Stuff Page\ColinFry.jpg" />
+    <Content Include="images\Stuff Page\CooperRose.jpg" />
+    <Content Include="images\Stuff Page\Dacqua.jpg" />
+    <Content Include="images\Stuff Page\Gatsby.jpg" />
+    <Content Include="images\Stuff Page\Martinos.jpg" />
+    <Content Include="images\Stuff Page\MayorsBall.jpg" />
+    <Content Include="images\Stuff Page\Passion.jpg" />
+    <Content Include="images\Stuff Page\Roast.jpg" />
+    <Content Include="images\Stuff Page\TakeThat.jpg" />
+    <Content Include="images\Stuff Page\ThePoint.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -229,6 +259,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="images\Sport Page\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

@@ -13,7 +13,7 @@ namespace HendonHerald.Controllers
 			return View();
 		}
 
-        public ActionResult Index()
+        public ActionResult Local()
         {
             return View();
         }
