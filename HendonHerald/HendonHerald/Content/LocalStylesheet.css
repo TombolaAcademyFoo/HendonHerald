@@ -15,4 +15,25 @@ h3 {
     margin-top: 50px;
 }
 
+aside {
+    display: inline-block;
+    float: right;
+    padding-right: 400px;
+}
+
+#asidenews {
+    font-weight: bold
+}
+
+.asideArticle {
+    width: 300px;
+    background-color: #F8FAF7;
+}
+
+
+
+.AsideIMG {
+    height: 100px;
+    width: 130px;
+}
 
