@@ -28,12 +28,78 @@ aside {
 .asideArticle {
     width: 300px;
     background-color: #F8FAF7;
+    padding-top: 15px;
 }
-
-
 
 .AsideIMG {
     height: 100px;
     width: 130px;
 }
 
+
+header {
+background-color: #700b0b  ;
+font-weight: normal;
+color: #ffffff  ;
+font-size: 16px;
+margin: 0px;
+width: 970px;
+}
+
+header a {
+text-decoration:underline;
+color: #ffffff  ;
+}
+
+header a:hover {
+color: #aaaaaa  ;
+}
+
+header ul {
+display: inline-block;
+}
+
+header li {
+width: 40px;
+list-style: none;
+display: inline-block;
+padding-left: 12px;
+padding-right: 8px;
+
+}
+
+#logo {
+height: 60px;
+}
+
+a nav ul {
+display: inline-block;
+float: left;
+}
+
+nav li {
+display: inline-block;
+width: 40px;
+float: left;
+
+}
+
+nav {
+display: inline-block;
+padding-left: 320px;
+}
+
+#menu{
+background-color: #890c0c  ;
+}
+
+#copyright {
+text-align: center;
+}
+
+footer {
+color: #FFFFFF  ;
+background-color: #404040  ;
+padding: 8px;
+width: 970px;
+}

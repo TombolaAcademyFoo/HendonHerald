@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "HendonHeader";
+
+}
+
+<section id="contentContainer">
+
+    <header>
+        <img id="logo" src="..\images\Index Page\heraldlogo.png" alt="logo">
+        <h1> The Hendon Herald </h1>
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li>
+                        @Html.ActionLink("News", "News", "Home")
+                    </li>
+                    <li>
+                        @Html.ActionLink("Local", "Local", "Home")
+                    </li>
+                    <li>
+                        @Html.ActionLink("Sport", "Sport", "Home")
+                    </li>
+                    <li>
+                        @Html.ActionLink("Stuff", "Stuff", "Home")
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
