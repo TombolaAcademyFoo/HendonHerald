@@ -1,1 +1,18 @@
-﻿
+﻿#mainContent {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+article {
+    width: 600px;
+}
+
+.mainArticleP {
+    width: 600px;
+}
+
+h3 {
+    margin-top: 50px;
+}
+
+
