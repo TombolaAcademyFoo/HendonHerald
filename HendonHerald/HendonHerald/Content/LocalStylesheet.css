@@ -22,7 +22,8 @@ aside {
 }
 
 #asidenews {
-    font-weight: bold
+    font-weight: bold;
+    padding-top: 70px;
 }
 
 .asideArticle {
@@ -36,14 +37,15 @@ aside {
     width: 130px;
 }
 
-
+/*
 header {
 background-color: #700b0b  ;
 font-weight: normal;
 color: #ffffff  ;
 font-size: 16px;
 margin: 0px;
-width: 970px;
+height: 140px;
+padding-left: 650px;
 }
 
 header a {
@@ -86,13 +88,15 @@ float: left;
 
 nav {
 display: inline-block;
-padding-left: 320px;
+padding-left: 80px;
 }
 
 #menu{
-background-color: #890c0c  ;
+background-color: #890c0c;
+margin-top: 20px;
+margin-right: 800px;
 }
-
+    */
 #copyright {
 text-align: center;
 }
@@ -102,4 +106,12 @@ color: #FFFFFF  ;
 background-color: #404040  ;
 padding: 8px;
 width: 970px;
+}
+
+.asideSeperator {
+    width: 4px;
+    height: 500px;
+    background-color: #700b0b;
+    float: right;
+    margin-right: 80px;
 }
