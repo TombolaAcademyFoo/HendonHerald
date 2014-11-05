@@ -45,3 +45,58 @@ aside {
     float: right;
     margin-right: 80px;
 }
+
+#Story1IMG {
+    height: 445px;
+    width: 628px;
+}
+
+#Story2IMG {
+    height: 120px;
+    width: 200px;
+    padding-right: 45px;
+}
+
+#Story3IMG {
+    height: 120px;
+    width: 160px;
+}
+
+.Story1 {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: auto;
+    color: #404040;
+    display: inline;
+    
+ }
+
+.Story2 {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 15px;
+    margin-top: auto;
+    color: #404040;
+    display: inline-block;
+ }
+
+.Story3 {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: auto;
+    color: #404040;
+    display: inline-block;
+    
+ }
+
+#LeagueTable {
+    width: 216px;
+}
+
+h5 {
+    background-color: #700b0b;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    width: 150px;
+}
