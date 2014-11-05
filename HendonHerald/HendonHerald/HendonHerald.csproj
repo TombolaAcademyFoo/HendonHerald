@@ -175,6 +175,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\FooterStylesheet.css" />
     <Content Include="Content\HeaderStylesheet.css" />
+    <Content Include="Content\IndexStylesheet.css" />
+    <Content Include="Content\NewsStylesheet.css" />
     <Content Include="Content\SportStylesheet.css" />
     <Content Include="Content\StuffStylesheet.css" />
     <Content Include="favicon.ico" />
@@ -276,6 +278,7 @@
     <Content Include="Views\Shared\Header\_Header.cshtml" />
     <Content Include="Views\Home\Stuff.cshtml" />
     <Content Include="Views\Home\Sport.cshtml" />
+    <Content Include="Views\Home\News.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

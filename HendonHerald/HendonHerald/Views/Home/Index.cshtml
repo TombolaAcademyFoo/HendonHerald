@@ -2,9 +2,60 @@
     Layout = "~/Views/Shared/_BaseLayout.cshtml";
 }
 
-<main>
-    <article>
+<link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/IndexStylesheet.css")" />
 
+<aside>
+
+    <h4 id="asidenews">More Local News</h4>
+
+    <div class="asideArticle">
+        <h4>Katie Rolls On</h4>
+        <img class="AsideIMG" src="..\images\Local Page\Aside Images\ApprenticeKatie.jpg" alt="Sunderland Apprentice" />
+        <p>
+            Katie Bulmer-Cooke played to her strengths in this
+            weeks Apprentice, with her group coming out top, and
+            Katie is looking strong to continue her progression.
+        <p>
+    </div>
+
+    <div class="asideArticle">
+        <h4>The Damned In Sunderland</h4>
+        <img class="AsideIMG" src="..\images\Local Page\Aside Images\TheDamned.jpg" alt="The Damned" />
+        <p>
+            The iconic punk band The Damned is returning
+            Sunderland to play a rare wearside gig at
+            North Shore in St.Peter's Campus.
+        </p>
+    </div>
+
+    <div class="asideArticle">
+        <h4>Night At The Museum</h4>
+        <img class="AsideIMG" src="..\images\Local Page\Aside Images\BrownieMuseum.jpg" alt="Brownies Sleepover" />
+        <p>
+            It was a night at the museum for Sunderland's
+            brownie division, over 100 brownies took part
+            in a huge sleepover in Winter Gardens to celebrate
+            the Brownie's centenary.
+        </p>
+    </div>
+    <div class="asideArticle">
+        <h4>Young Film Makers Win Award</h4>
+        <img class="AsideIMG" src="..\images\Local Page\Aside Images\SunderlandFilm.jpg" alt="Young Film Stars" />
+        <p>
+            Emmie and Lilly Thompson have won an award for
+            their short film 'Mitchell Goldfield'. The film
+            portrays a young man that feels as if everything
+            is against him in life. The girls are hoping to
+            continue their success.
+        </p>
+    </div>
+</aside>
+
+
+<main>
+    <div id="mainContent">
+    <article>
+        
         <h2> Spectral Figure Found In Mowbray Park </h2>
         <img id="park" src="..\images\Index Page\Spectral Figure Discovered in Mowbray park.jpg" alt="MowbrayPark" /><div>
             <h3> Spirit Eyes Cannon </h3>
@@ -16,8 +67,8 @@
     </article>
     <hr>
     <article>
+            <h2> Blandford Street found Wonky</h2>
         <img id="images" src="..\images\Index Page\CrookedBlandfordStreet.jpg" alt="FordStreet" /><div>
-            <h3> Blandford Street found Wonky</h3>
             <p>Keen shoppers were underterred as Blandford Street at the heart of the city was seen to be a bit skew-wiff.From Herbet Brown's to Debenhams, the whole street appeared tilted off to the rught somehow.</p>
             <p>We contacted a spokesperson for H&T Pawnbrokers said "To be honest, we haven't noticed anything unusal outside. There has been no drop off in trade, punters are here putting their wedding rings on tick just a desperately as usual."</p>
             <p>Our roving photohrapher, Nathanial Ventricle, took this shocking image moments after picking up his new tripod from Chas Eagle's and Sons. Nathanial said "You know what's odd, the people on Blandford Street look wonky too- normally they'd be upri..oh.wait.."</p>
@@ -25,8 +76,8 @@
     </article>
     <hr>
     <article>
+            <h2> Amy Winehouse Urged into Rehab</h2>
         <img id="images" src="..\images\Index Page\AmysWinehouse.jpg" alt="FordStreet"><div>
-            <h3> Amy Winehouse Urged into Rehab</h3>
             <p>
                 Amy's Winehouse has said "no no no" to calls to enter rehab after complaints of rowdy behaviour about the songstressly-named offy. An neighbour, who wishes to remain anonymous, has seen Amy's Winehouse selling the following in broad daylight:
                 <ul>
@@ -37,4 +88,5 @@
             <p>Amy's Winehouse ain't got the time to make a comment, adding the retail outlet's daddy thinks she's fine.</p>
         </div>
     </article>
+    </div>
 </main>

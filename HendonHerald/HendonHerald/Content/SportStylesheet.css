@@ -100,3 +100,13 @@ h5 {
     font-weight: bold;
     width: 150px;
 }
+
+th{
+    text-align: center;
+    width: 40px;
+    background-color: #404040;
+    color: #aaaaaa; 
+}
+td{
+   text-align: center;
+}
