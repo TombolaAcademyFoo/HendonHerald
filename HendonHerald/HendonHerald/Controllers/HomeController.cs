@@ -13,7 +13,22 @@ namespace HendonHerald.Controllers
 			return View();
 		}
 
+        public ActionResult News()
+        {
+            return View();
+        }
+
         public ActionResult Local()
+        {
+            return View();
+        }
+
+        public ActionResult Sport()
+        {
+            return View();
+        }
+
+        public ActionResult Stuff()
         {
             return View();
         }
