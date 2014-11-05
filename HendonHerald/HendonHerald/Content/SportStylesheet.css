@@ -27,7 +27,7 @@ aside {
 }
 
 .asideArticle {
-    width: 300px;
+    width: 180px;
     background-color: #F8FAF7;
     padding-top: 15px;
 }
@@ -91,6 +91,7 @@ aside {
 
 #LeagueTable {
     width: 216px;
+    padding-top: 85px;
 }
 
 h5 {
