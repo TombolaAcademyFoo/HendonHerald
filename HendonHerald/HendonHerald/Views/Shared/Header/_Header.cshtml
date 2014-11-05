@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "HendonHeader";
+
+}
+
+<link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/HeaderStylesheet.css")" />
+
+<section id="contentContainer">
+
+    <header>
+        <h1> The Hendon Herald </h1>
+        <img id="logo" src="..\images\Index Page\heraldlogo.png" alt="logo">
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li>
+                        @Html.ActionLink("News", "News", "Home")
+                    </li>
+                    <li>
+                        @Html.ActionLink("Local", "Local", "Home")
+                    </li>
+                    <li>
+                        @Html.ActionLink("Sport", "Sport", "Home")
+                    </li>
+                    <li>
+                        @Html.ActionLink("Stuff", "Stuff", "Home")
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+</section>

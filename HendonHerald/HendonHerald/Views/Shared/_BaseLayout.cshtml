@@ -21,13 +21,14 @@
 <body>
 
 
+@Html.Partial("~/views/shared/Header/_Header.cshtml")
 
 
-    @RenderBody()
+@RenderBody()
 
-    <footer>
-
-    </footer>
+<footer>
+    @Html.Partial("~/views/shared/Footer/_Footer.cshtml")
+</footer>
 
 
     @Scripts.Render("~/bundles/jquery")

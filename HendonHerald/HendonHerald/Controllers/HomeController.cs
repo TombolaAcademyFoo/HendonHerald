@@ -13,18 +13,24 @@ namespace HendonHerald.Controllers
 			return View();
 		}
 
-		public ActionResult About()
-		{
-			ViewBag.Message = "Your application description page.";
+        public ActionResult News()
+        {
+            return View();
+        }
 
-			return View();
-		}
+        public ActionResult Local()
+        {
+            return View();
+        }
 
-		public ActionResult Contact()
-		{
-			ViewBag.Message = "Your contact page.";
+        public ActionResult Sport()
+        {
+            return View();
+        }
 
-			return View();
-		}
+        public ActionResult Stuff()
+        {
+            return View();
+        }
 	}
 }
