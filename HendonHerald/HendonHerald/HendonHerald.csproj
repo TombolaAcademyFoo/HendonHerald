@@ -175,6 +175,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\FooterStylesheet.css" />
     <Content Include="Content\HeaderStylesheet.css" />
+    <Content Include="Content\SportStylesheet.css" />
     <Content Include="Content\StuffStylesheet.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -197,6 +198,15 @@
     <Content Include="images\News Page\Court.jpg" />
     <Content Include="images\News Page\OutdoorGym.jpg" />
     <Content Include="images\News Page\sunderlandcouncil.jpg" />
+    <Content Include="images\Sport Page\Englands Unbeaten Run.jpg" />
+    <Content Include="images\Sport Page\Greg-Dyke.jpg" />
+    <Content Include="images\Sport Page\Jack-Rodwell.jpg" />
+    <Content Include="images\Sport Page\Jozy-Altidore.jpg" />
+    <Content Include="images\Sport Page\marathon-runners.jpg" />
+    <Content Include="images\Sport Page\raheem-sterling.jpg" />
+    <Content Include="images\Sport Page\Snooker.jpg" />
+    <Content Include="images\Sport Page\Sunderland Beaten.jpg" />
+    <Content Include="images\Sport Page\VerginiSAFCLoanStar.jpg" />
     <Content Include="images\Stuff Page\Alexandra.jpg" />
     <Content Include="images\Stuff Page\Aside Images\CircusofHorrors.jpg" />
     <Content Include="images\Stuff Page\Aside Images\DirtyDancing.jpg" />
@@ -265,10 +275,10 @@
     <Content Include="Views\Shared\Footer\_Footer.cshtml" />
     <Content Include="Views\Shared\Header\_Header.cshtml" />
     <Content Include="Views\Home\Stuff.cshtml" />
+    <Content Include="Views\Home\Sport.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="images\Sport Page\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
