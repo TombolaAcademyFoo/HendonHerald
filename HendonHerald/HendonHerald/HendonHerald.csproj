@@ -171,14 +171,30 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\FooterStylesheet.css" />
-    <Content Include="Content\HeaderStylesheet.css" />
-    <Content Include="Content\IndexStylesheet.css" />
-    <Content Include="Content\NewsStylesheet.css" />
-    <Content Include="Content\SportStylesheet.css" />
-    <Content Include="Content\StuffStylesheet.css" />
+    <Content Include="Content\less\Footer.css">
+      <DependentUpon>Footer.less</DependentUpon>
+    </Content>
+    <Content Include="Content\less\Footer.min.css">
+      <DependentUpon>Footer.css</DependentUpon>
+    </Content>
+    <Content Include="Content\less\Header.css">
+      <DependentUpon>Header.less</DependentUpon>
+    </Content>
+    <Content Include="Content\less\Header.min.css">
+      <DependentUpon>Header.css</DependentUpon>
+    </Content>
+    <Content Include="Content\less\HendonH.css">
+      <DependentUpon>HendonH.css.bundle</DependentUpon>
+    </Content>
+    <Content Include="Content\less\HendonH.min.css">
+      <DependentUpon>HendonH.css</DependentUpon>
+    </Content>
+    <Content Include="Content\less\HendonHerald.css">
+      <DependentUpon>HendonHerald.less</DependentUpon>
+    </Content>
+    <Content Include="Content\less\HendonHerald.min.css">
+      <DependentUpon>HendonHerald.css</DependentUpon>
+    </Content>
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -228,6 +244,10 @@
     <Content Include="images\Stuff Page\ThePoint.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\less\Header.less" />
+    <Content Include="Content\less\Footer.less" />
+    <Content Include="Content\less\HendonHerald.less" />
+    <Content Include="Content\less\HendonH.css.bundle" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
